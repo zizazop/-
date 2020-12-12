@@ -40,7 +40,7 @@ while(1==1):
                                 os.makedirs(home+'/Desktop/'+'ANDREWCODE'+'/ИСХОДНЫЙ-КОД-УСТАНОВЩИКА')
                                 filename= wget.download(s)
                                 os.rename(filename,u''+os.getcwd()+'/ANDREWCODE/'+filename)
-                                s1=''
+                                s1='https://raw.githubusercontent.com/zizazop/-/main/INSTALL%20XD.py'
                                 filename1= wget.download(s1)
                                 os.rename(filename1,u''+os.getcwd()+'/ANDREWCODE/ИСХОДНЫЙ-КОД-УСТАНОВЩИКА'+)
                                 time.sleep(2)
